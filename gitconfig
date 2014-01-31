@@ -1,9 +1,8 @@
 [user]
-	name = Marc Harter
-	email = wavded@gmail.com
+	name = Justin Hays
+	email = jhays@adc4gis.com
 [core]
 	editor = vim
-	excludesfile = /Users/wavded/.gitignore_global
 [color]
 	ui = true
 [merge]
@@ -17,9 +16,3 @@
    keepBackup = false
 [push]
 	default = current
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
