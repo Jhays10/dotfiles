@@ -17,6 +17,7 @@
    keepBackup = false
 [push]
 	default = current
+  followTags = true
 [diff]
 	tool = diffmerge
 [difftool "diffmerge"]
