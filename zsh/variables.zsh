@@ -5,3 +5,6 @@ export DEFAULT_USER=jhays
 
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31'
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+export PATH="/usr/local/opt/node@10/bin:$PATH"
